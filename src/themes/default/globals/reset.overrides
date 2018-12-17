@@ -131,7 +131,7 @@ strong {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: inherit;
 }
 
 /**
@@ -159,8 +159,8 @@ dfn {
  */
 
 mark {
-  background-color: #ff0;
-  color: #000;
+  background-color: transparent;
+  color: inherit;
 }
 
 /**

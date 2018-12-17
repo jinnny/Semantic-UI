@@ -30,7 +30,8 @@ html {
 input[type="text"],
 input[type="email"],
 input[type="search"],
-input[type="password"] {
+input[type="password"],
+input {
   -webkit-appearance: none;
   -moz-appearance: none;
   
@@ -175,7 +176,7 @@ strong {
  */
 b,
 strong {
-  font-weight: bolder;
+  font-weight: inherit;
 }
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -201,8 +202,8 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 mark {
-  background-color: #ff0;
-  color: #000;
+  background-color: transparent;
+  color: inherit;
 }
 /**
  * Add the correct font size in all browsers.
